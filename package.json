@@ -1,0 +1,14 @@
+{
+  "name": "vanilla-blog",
+  "version": "1.0.0",
+  "author": "matheusdearaujo",
+  "description": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server . --verbose"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
