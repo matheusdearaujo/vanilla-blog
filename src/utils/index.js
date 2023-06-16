@@ -1,3 +1,3 @@
 export * from "./parseRequestURL.js";
 export * from "./sleep.js";
-export * from "./useFetch.js";
+export * from "./hooks/useFetch.js";

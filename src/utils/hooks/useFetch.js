@@ -24,9 +24,9 @@ export async function useFetch(url, fetchOptions) {
     const data = await response.json();
 
     responses.data = data;
-    responses.loading = false;
   } catch (err) {
     responses.error = err;
+  } finally {
     responses.loading = false;
   }
 
