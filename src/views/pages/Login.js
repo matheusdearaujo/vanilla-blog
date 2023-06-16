@@ -1,3 +1,5 @@
+import Button from "../components/Button.js";
+
 const Login = {
   render: async () => {
     return `
@@ -21,7 +23,12 @@ const Login = {
                   <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
                   <input type="password" name="password" id="passInput" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-gray-600 focus:border-gray-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 </div>
-                <button type="submit" class="w-full text-white bg-gray-600 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">Sign in</button>
+                ${await Button.render({
+                  style: ["w-full text-center"],
+                  html: `
+                    Sign in
+                  `,
+                })}
               </form>
             </div>
           </div>

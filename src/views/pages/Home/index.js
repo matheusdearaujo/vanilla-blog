@@ -1,5 +1,5 @@
-import TopContent from "../components/home/TopContent.js";
-import { useFetch } from "../../utils/index.js";
+import TopContent from "./components/TopContent.js";
+import { useFetch } from "../../../utils/index.js";
 
 const Home = {
   render: async () => {
