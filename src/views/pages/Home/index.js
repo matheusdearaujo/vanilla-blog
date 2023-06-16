@@ -1,4 +1,4 @@
-import TopContent from "./components/TopContent.js";
+import { TopContent } from "./components/TopContent.js";
 import { useFetch } from "../../../utils/index.js";
 
 const Home = {

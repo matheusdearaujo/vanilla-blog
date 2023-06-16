@@ -1,4 +1,4 @@
-const Button = {
+export const Button = {
   render: async ({ html, style }) => {
     return `
       <button
@@ -12,5 +12,3 @@ const Button = {
   },
   afterRender: async () => {},
 };
-
-export default Button;

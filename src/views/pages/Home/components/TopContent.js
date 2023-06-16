@@ -1,6 +1,6 @@
-import Button from "../../../components/Button.js";
+import { Button } from "../../../components/index.js";
 
-const TopContent = {
+export const TopContent = {
   render: async () => {
     return `
       <div class="px-4 py-4">
@@ -31,5 +31,3 @@ const TopContent = {
   },
   afterRender: async () => {},
 };
-
-export default TopContent;

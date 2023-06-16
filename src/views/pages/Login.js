@@ -1,4 +1,4 @@
-import Button from "../components/Button.js";
+import { Button } from "../components/index.js";
 
 const Login = {
   render: async () => {
